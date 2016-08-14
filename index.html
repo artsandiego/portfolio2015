@@ -378,7 +378,7 @@
                 <div class="col s6 m4 l2">
                     <div class="card hoverable hideme z-depth-4">
                         <div class="card-content white-text">
-                            <a target="_blank" href="resume.html"><img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Art's Resume" src="images/other/resume.png" alt="resume" style="height:auto; width:100%" /></a>
+                            <div class="resume"><img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Art's Resume" src="images/other/resume.png" alt="resume" style="height:auto; width:100%" /></div>
                         </div>
                     </div>
                 </div>
@@ -465,7 +465,7 @@
             });
 
             $('#mobile').click(function () {
-                var $toastContent = $('<span id="toast">+639361443777</span>');
+                var $toastContent = $('<span id="toast">Email me for my mobile number</span>');
                 Materialize.toast($toastContent, 5000);
             });
 
@@ -475,7 +475,12 @@
             });
 
             $('.mobile').click(function () {
-                var $toastContent = $('<span id="toast">+639361443777</span>');
+                var $toastContent = $('<span id="toast">Email me for my mobile number</span>');
+                Materialize.toast($toastContent, 5000);
+            });
+            
+            $('.resume').click(function () {
+                var $toastContent = $('<span id="toast">Email me for my Resume</span>');
                 Materialize.toast($toastContent, 5000);
             });
 
