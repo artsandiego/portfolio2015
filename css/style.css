@@ -42,7 +42,7 @@ nav ul li {
     text-align: center;
 }
 
-#content-2 #achievements {
+#content-2 #achievements-title {
     color: #37709b;
     font-family: BebasNeue, sans-serif;
     font-weight: 600;
@@ -60,7 +60,7 @@ nav ul li {
     opacity: 0;
 }
 
-#skills {
+#skills-title {
     color: #1e5d86;
     font-family: BebasNeue, sans-serif;
     font-size: 9vmin;

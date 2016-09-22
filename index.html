@@ -16,6 +16,7 @@
     <!--<link rel="stylesheet" type="text/css" href="css/materialize.min.css">-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <!--INTERNET-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -24,35 +25,37 @@
 
 <body>
     <!--NAVIGATION-->
-    <nav>
-        <div class="nav-wrapper blue-grey darken-4">
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="padding-left:0.5em"><img src="images/icons/ic_menu_white_18dp_2x.png"/></i></a>
-            <ul class="right hide-on-med-and-down" style="padding-right:5em;">
-                <li><a href="#about"><i class="material-icons left"><img src="images/icons/ic_perm_identity_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">About me</span></a></li>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper blue-grey darken-4">
+                <a href="#" data-activates="slide-nav" class="button-collapse"><img src="images/icons/ic_menu_white_18dp_2x.png" alt="menu"></a>
+                <ul class="right hide-on-med-and-down" style="padding-right:5em;">
+                    <li><a href="#about"><i class="material-icons left"><img src="images/icons/ic_perm_identity_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">About me</span></a></li>
 
-                <li><a href="#skills"><i class="material-icons left"><img src="images/icons/ic_code_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Skills</span></a></li>
+                    <li><a href="#skills"><i class="material-icons left"><img src="images/icons/ic_code_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Skills</span></a></li>
 
-                <li><a href="#achievements"><i class="material-icons left"><img src="images/icons/ic_thumb_up_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">What I'm proud of</span></a></li>
+                    <li><a href="#achievements"><i class="material-icons left"><img src="images/icons/ic_thumb_up_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">What I'm proud of</span></a></li>
 
-                <li><a href="#hire"><i class="material-icons left"><img src="images/icons/ic_work_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Hire me</span></a></li>
+                    <li><a href="#hire"><i class="material-icons left"><img src="images/icons/ic_work_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Hire me</span></a></li>
 
-                <li><a href="#contactme"><i class="material-icons left"><img src="images/icons/ic_call_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Contact me</span></a></li>
-            </ul>
-            <ul class="side-nav blue-grey darken-4" id="mobile-demo">
-                <li><img id="logo" src="images/logo/branding.png" alt="Branding"></li>
+                    <li><a href="#contactme"><i class="material-icons left"><img src="images/icons/ic_call_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Contact me</span></a></li>
+                </ul>
+                <ul class="side-nav nav-bar-bg" id="slide-nav">
+                    <li><img id="logo" src="images/logo/branding.png" alt="Branding"></li>
 
-                <li><a href="#about"><i class="material-icons left"><img src="images/icons/ic_perm_identity_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">About me</span></a></li>
+                    <li><a href="#about"><i class="material-icons left"><img src="images/icons/ic_perm_identity_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">About me</span></a></li>
 
-                <li><a href="#skills"><i class="material-icons left"><img src="images/icons/ic_code_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Skills</span></a></li>
+                    <li><a href="#skills"><i class="material-icons left"><img src="images/icons/ic_code_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Skills</span></a></li>
 
-                <li><a href="#achievements"><i class="material-icons left"><img src="images/icons/ic_thumb_up_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">What I'm proud of</span></a></li>
+                    <li><a href="#achievements"><i class="material-icons left"><img src="images/icons/ic_thumb_up_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">What I'm proud of</span></a></li>
 
-                <li><a href="#hire"><i class="material-icons left"><img src="images/icons/ic_work_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Hire me</span></a></li>
+                    <li><a href="#hire"><i class="material-icons left"><img src="images/icons/ic_work_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Hire me</span></a></li>
 
-                <li><a href="#contactme"><i class="material-icons left"><img src="images/icons/ic_call_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Contact me</span></a></li>
-            </ul>
-        </div>
-    </nav>
+                    <li><a href="#contactme"><i class="material-icons left"><img src="images/icons/ic_call_white_18dp_2x.png"/></i><span class="blue-grey-text lighten-4">Contact me</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <!--END OF NAVIGATION-->
     <!--PARALLAX-->
     <div class="parallax-container">
@@ -74,19 +77,20 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col s5 m5 l5">
+                <div class="col s12 m5 l5">
                     <div class="card hoverable hideme z-depth-4">
                         <div class="card-content">
                             <span class="card-title flow-text">Let me introduce myself...</span>
-                            <p class="flow-text">I'm Artemio A. San Diego, aspiring <span id="inserts">Hybrid App | Front-End Web Developer</span> and a Graphic Designer wannabe, <span id="inserts">casual gamer</span> and an indie game lover. Fresh graduate from
+                            <p class="flow-text">Hi! I'm Artemio A. San Diego, aspiring <span id="inserts">Hybrid App Developer</span> and a freelance <span id="inserts">Front-End Web Developer</span> a Graphic Designer wannabe, <span id="inserts">casual gamer</span> and
+                                an indie game lover. Fresh graduate from
                                 <a href="http://www.urs.edu.ph/index.php/en/"><span id="inserts" style="cursor:pointer;">University of Rizal System Binangonan</span></a> with a degree of <span id="inserts">Bachelor of Science in Information Technology</span>.</p>
                             <p class="flow-text">#EagerToLearn
-                                <br/>#ReadyToAssist
+                                <br/>#HighlyOrganized
                                 <br/>#WillingToBeTrained</p>
                         </div>
                     </div>
                 </div>
-                <div class="col s7 m7 7">
+                <div class="col s12 m7 l7">
                     <center><img id="vector" alt="vector" src="images/other/vector.png" /></center>
                 </div>
             </div>
@@ -96,15 +100,16 @@
     <!--PARALLAX-->
     <div class="parallax-container">
 
+        <div id="skills"></div>
+
         <div class="parallax">
             <img src="images/parallax/parallax2.png" alt="background2" width="100%" style="display: block; transform: translate3d(-50%, 394px, 0px);">
         </div>
 
-        <div id="skills"></div>
         <div class="container">
             <div class="row">
                 <div class="col s12">
-                    <h1 id="skills" class="hideme">Current skill set</h1>
+                    <h1 id="skills-title" class="hideme">Current skill set</h1>
                 </div>
             </div>
             <center>
@@ -129,7 +134,7 @@
                 </div>
             </center>
             <div class="row grid">
-                <div class="col s4 m3 l2 element-item intermediate" data-category="intermediate">
+                <div class="col s4 m3 l2 skill-item intermediate" data-category="intermediate">
                     <div class="skills-container">
                         <img src="images/skills/java.png" alt="java" class="bar_bg hoverable tooltipped" id="java" data-position="top" data-delay="50" data-tooltip="Java">
                         <div id="bar_java" class="bar" style="height: 2px; width: 100%; background-color: rgba(15, 36, 41, 0.77); border-top: 5px solid rgba(77, 201, 77, 0.71);">
@@ -138,7 +143,7 @@
                     </div>
                 </div>
 
-                <div class="col col s4 m3 l2 element-item intermediate" data-category="intermediate">
+                <div class="col col s4 m3 l2 skill-item intermediate" data-category="intermediate">
                     <div class="skills-container">
                         <img src="images/skills/android.png" alt="android" class="bar_bg hoverable tooltipped" id="android" data-position="top" data-delay="50" data-tooltip="Android">
                         <div id="bar_android" class="bar" style="height: 2px; width: 100%; background-color: rgba(15, 36, 41, 0.77); border-top: 5px solid rgba(77, 201, 77, 0.71);">
@@ -147,7 +152,7 @@
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item intermediate" data-category="intermediate">
+                <div class="col s4 m3 l2 skill-item intermediate" data-category="intermediate">
                     <div class="skills-container">
                         <img src="images/skills/php.png" alt="php" class="bar_bg hoverable tooltipped" id="php" data-position="top" data-delay="50" data-tooltip="PHP">
                         <div id="bar_php" class="bar" style="height: 2px; width: 100%; background-color: rgba(15, 36, 41, 0.77); border-top: 5px solid rgba(77, 201, 77, 0.71);">
@@ -155,7 +160,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s4 m3 l2 element-item intermediate" data-category="intermediate">
+                <div class="col s4 m3 l2 skill-item intermediate" data-category="intermediate">
                     <div class="skills-container">
                         <img src="images/skills/htmlcss.png" alt="htmlcss" class="bar_bg hoverable tooltipped" id="htmlcss" data-position="top" data-delay="50" data-tooltip="HTML5 | CSS3">
                         <div id="bar_htmlcss" class="bar" style="height: 2px; width: 100%; background-color: rgba(15, 36, 41, 0.77); border-top: 5px solid rgba(77, 201, 77, 0.71);">
@@ -164,7 +169,7 @@
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item beginner" data-category="beginner">
+                <div class="col s4 m3 l2 skill-item beginner" data-category="beginner">
                     <div class="skills-container">
                         <img src="images/skills/jsjquery.png" alt="jsjquery" class="bar_bg hoverable tooltipped" id="jsjquery" data-position="top" data-delay="50" data-tooltip="Javascript | JQuery">
                         <div id="bar_jsjquery" class="bar" style="height: 2px; width: 100%; background-color: rgba(15, 36, 41, 0.77); border-top: 5px solid rgba(77, 201, 77, 0.71);">
@@ -173,7 +178,7 @@
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item intermediate" data-category="intermediate">
+                <div class="col s4 m3 l2 skill-item intermediate" data-category="intermediate">
                     <div class="skills-container">
                         <img src="images/skills/cssframework.png" alt="cssframeworks" class="bar_bg hoverable tooltipped" id="cssframeworks" data-position="top" data-delay="50" data-tooltip="CSS Frameworks">
                         <div id="bar_cssframeworks" class="bar" style="height: 2px; width: 100%; background-color: rgba(15, 36, 41, 0.77); border-top: 5px solid rgba(77, 201, 77, 0.71);">
@@ -182,7 +187,7 @@
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item intermediate" data-category="intermediate">
+                <div class="col s4 m3 l2 skill-item intermediate" data-category="intermediate">
                     <div class="skills-container">
                         <img src="images/skills/sql.png" alt="sql" class="bar_bg hoverable tooltipped" id="sql" data-position="top" data-delay="50" data-tooltip="SQL | MySQL | MySQli">
                         <div id="bar_sql" class="bar" style="height: 2px; width: 100%; background-color: rgba(15, 36, 41, 0.77); border-top: 5px solid rgba(77, 201, 77, 0.71);">
@@ -191,7 +196,7 @@
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item beginner" data-category="beginner">
+                <div class="col s4 m3 l2 skill-item beginner" data-category="beginner">
                     <div class="skills-container">
                         <img src="images/skills/git.png" alt="git" class="bar_bg hoverable tooltipped" id="git" data-position="top" data-delay="50" data-tooltip="Version Control System (GIT)">
                         <div id="bar_git" class="bar" style="height: 2px; width: 100%; background-color: rgba(15, 36, 41, 0.77); border-top: 5px solid rgba(77, 201, 77, 0.71);">
@@ -200,7 +205,7 @@
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item beginner" data-category="beginner">
+                <div class="col s4 m3 l2 skill-item beginner" data-category="beginner">
                     <div class="skills-container">
                         <img src="images/skills/networking.png" alt="networking" class="bar_bg hoverable tooltipped" id="networking" data-position="top" data-delay="50" data-tooltip="Computer Networking | Computer Hardware">
                         <div id="bar_networking" class="bar" style="height: 2px; width: 100%; background-color: rgba(15, 36, 41, 0.77); border-top: 5px solid rgba(77, 201, 77, 0.71);">
@@ -209,7 +214,7 @@
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item beginner" data-category="beginner">
+                <div class="col s4 m3 l2 skill-item beginner" data-category="beginner">
                     <div class="skills-container">
                         <img src="images/skills/aips.png" alt="illustrator|Photoshop" class="bar_bg hoverable tooltipped" id="aips" data-position="top" data-delay="50" data-tooltip="Adobe Illustrator | Photoshop">
                         <div id="bar_aips" class="bar" style="height: 2px; width: 100%; background-color: rgba(15, 36, 41, 0.77); border-top: 5px solid rgba(77, 201, 77, 0.71);">
@@ -218,25 +223,25 @@
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item interested" data-category="interested">
+                <div class="col s4 m3 l2 skill-item interested" data-category="interested">
                     <div class="skills-container">
                         <img src="images/skills/unity.png" alt="unity" class="bar_bg hoverable tooltipped" data-position="top" data-delay="50" data-tooltip="Unity Game Engine">
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item interested" data-category="interested">
+                <div class="col s4 m3 l2 skill-item interested" data-category="interested">
                     <div class="skills-container">
                         <img src="images/skills/laravel.png" alt="laravel" class="bar_bg hoverable tooltipped" data-position="top" data-delay="50" data-tooltip="Laravel Framework">
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item interested" data-category="interested">
+                <div class="col s4 m3 l2 skill-item interested" data-category="interested">
                     <div class="skills-container">
                         <img src="images/skills/ios.png" alt="ios" class="bar_bg hoverable tooltipped" data-position="top" data-delay="50" data-tooltip="Objective-C | Swift">
                     </div>
                 </div>
 
-                <div class="col s4 m3 l2 element-item interested" data-category="interested">
+                <div class="col s4 m3 l2 skill-item interested" data-category="interested">
                     <div class="skills-container">
                         <img src="images/skills/hybrid.png" alt="phonegap|cordova" class="bar_bg hoverable tooltipped" data-position="top" data-delay="50" data-tooltip="PhoneGap | Cordova">
                     </div>
@@ -262,8 +267,8 @@
             <div class="card hoverable z-depth-4" id="interested">
                 <div class="card-content">
                     <span class="card-title flow-text">Interests</span>
-                    <p>I always wanted to learn how to develop mobile games using unity game engine, I'm also interested in developing iOS applications using either swift or objective-C and developing website using laravel framework, I also wanted to see
-                        and experience how hybrid android development works. </p>
+                    <p>I always wanted to learn how to develop mobile games using unity game engine, I'm also interested in developing iOS applications using either swift or objective-C and developing website using laravel framework, I'm currently studying
+                        Ionic Framework, AngularJS and Cordova.</p>
                 </div>
             </div>
         </div>
@@ -274,15 +279,15 @@
         <div id="achievements"></div>
         <div class="container">
             <div class="row">
-                <div class="col s7">
-                    <h1 id="achievements" class="hideme">Achievements</h1>
+                <div class="col s6 m7 l7">
+                    <h1 id="achievements-title" class="hideme">Achievements</h1>
                 </div>
-                <div class="col s5">
+                <div class="col s6 m5 l5">
                     <h1 id="experience-title" class="hideme">Experience</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col s7">
+                <div class="col s12 m7 l7">
                     <ul class="collapsible popout" data-collapsible="accordion">
                         <li>
                             <div class="collapsible-header"><i class="material-icons"><img src="images/icons/ic_school_white_18dp_1x.png" style="margin: 5px;"/></i>Academic Awards</div>
@@ -343,7 +348,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col s5">
+                <div class="col s12 m5 l5">
                     <div class="card hoverable hideme z-depth-4" id="experience">
                         <img src="images/other/corporate.png" alt="corporate" style="height: auto; width: 100%;" />
                         <div class="card-content white-text">
@@ -371,21 +376,22 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col s6">
+                <div class="col s6 m4 l3">
                     <div class="card hoverable hideme z-depth-4">
                         <div class="card-content white-text">
-                            <span class="card-title flow-text">Why you should hire me?</span>
-                            <p>I am an Information Technology graduate, specializing in Mobile and Front-End development. I have accomplished different tasks that requires technical and software skills during college. I am organized and creative, I don't
-                                have any work related experience yet, but still, I can assure you that I am passionate in this career I am pursuing, and I am enthused to deliver high-quality work.</p>
+                            <div class="resume"><img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Art's Resume" src="images/other/resume.png" alt="resume" style="height:auto; width:100%" /></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col s6 m4 l2">
+                <div class="col s12 m6 l6">
                     <div class="card hoverable hideme z-depth-4">
                         <div class="card-content white-text">
-                            <div class="resume"><img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Art's Resume" src="images/other/resume.png" alt="resume" style="height:auto; width:100%" /></div>
+                            <span class="card-title flow-text">Why me?</span>
+                            <p>I'm a degree holder of Bachelor of Science in Information Technology, currently studying Hybrid App Development and doing some freelance Front-End Web projects. I enjoy studying and learning new things, I am passionate in this
+                                career I am pusruing, It is stressful but it's fun at the same time. My experience might not be enough as of the moment that's why I am enthused to grab any opportuniy that I know I can showcase my skills and deliver a
+                                high-quality work.</p>
                         </div>
                     </div>
                 </div>
@@ -462,112 +468,8 @@
     <!--<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <!--<script type="text/javascript" src="js/materialize.min.js"></script>-->
-    <script type="text/javascript">
-        $(document).ready(function() {
-
-            //TOAST ON CLICK
-            $('#gmail').click(function() {
-                var $toastContent = $('<span id="toast">asd.artsandiego@gmail.com</span>');
-                Materialize.toast($toastContent, 5000);
-            });
-
-            $('#mobile').click(function() {
-                var $toastContent = $('<span id="toast">Email me for my mobile number</span>');
-                Materialize.toast($toastContent, 5000);
-            });
-
-            $('.gmail').click(function() {
-                var $toastContent = $('<span id="toast">asd.artsandiego@gmail.com</span>');
-                Materialize.toast($toastContent, 5000);
-            });
-
-            $('.mobile').click(function() {
-                var $toastContent = $('<span id="toast">Email me for my mobile number</span>');
-                Materialize.toast($toastContent, 5000);
-            });
-
-            $('.resume').click(function() {
-                var $toastContent = $('<span id="toast">Email me for my Resume</span>');
-                Materialize.toast($toastContent, 5000);
-            });
-
-            //PARALLAX
-            $('.parallax').parallax();
-
-            //NAVIGATION
-            $(".button-collapse").sideNav();
-
-            //COLLAPSIBLE
-            var collapsible = [{
-                selector: '.collapsible',
-                offset: 0,
-                callback: function() {
-                    Materialize.showStaggeredList(".collapsible");
-                    $('.collapsible').animate({
-                        'opacity': '1'
-                    }, 1000);
-                }
-            }];
-            Materialize.scrollFire(collapsible);
-
-            //SKILLS
-            var $toastContent = $('<span id="toast">Hover on an icon to show the level of proficiency.</span>');
-            var skills = [{
-                selector: '#skills',
-                offset: 500,
-                callback: function() {
-                    Materialize.toast($toastContent, 5000);
-                }
-            }];
-
-            Materialize.scrollFire(skills);
-
-            //TOOLTIP
-            $('.tooltipped').tooltip({
-                delay: 50
-            });
-
-        });
-    </script>
     <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
     <!--<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>-->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // init Isotope
-            var $grid = $('.grid').isotope({
-                itemSelector: '.element-item'
-            });
-            // filter functions
-            var filterFns = {
-                // show if number is greater than 50
-                numberGreaterThan50: function() {
-                    var number = $(this).find('.number').text();
-                    return parseInt(number, 10) > 50;
-                }, // show if name ends with -ium
-                ium: function() {
-                    var name = $(this).find('.name').text();
-                    return name.match(/ium$/);
-                }
-            };
-            // bind filter button click
-            $('.filters-button-group').on('click', 'button', function() {
-                var filterValue = $(this).attr('data-filter');
-                // use filterFn if matches value
-                filterValue = filterFns[filterValue] || filterValue;
-                $grid.isotope({
-                    filter: filterValue
-                });
-            });
-            // change is-checked class on buttons
-            $('.button-group').each(function(i, buttonGroup) {
-                var $buttonGroup = $(buttonGroup);
-                $buttonGroup.on('click', 'button', function() {
-                    $buttonGroup.find('.is-checked').removeClass('is-checked');
-                    $(this).addClass('is-checked');
-                });
-            });
-        });
-    </script>
     <script type="text/javascript" src="js/jquery.stellar.js"></script>
     <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
     <script type="text/javascript" src="js/script.js"></script>

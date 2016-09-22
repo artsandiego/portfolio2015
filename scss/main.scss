@@ -1,0 +1,30 @@
+$nav-bar-bg: rgba(14.5%, 21.6%, 23.9%, 0.8);
+.nav-bar-bg {
+    background-color: $nav-bar-bg;
+}
+
+.button-collapse {
+    img {
+        padding: 1em;
+    }
+}
+
+#about {
+    padding-top: 4em;
+}
+
+#skills {
+    @extend #about;
+}
+
+#achievements{
+    @extend #about;
+}
+
+#hire{
+    @extend #about;
+}
+
+#contactme{
+    @extend #about;
+}
