@@ -64,7 +64,7 @@ $(document).ready(function () {
 
     $("#php").hover(function () {
         $("#bar_php").animate({
-            height: "80%"
+            height: "75%"
         }, 1000);
         $('.desc_php').animate({
             'opacity': '1'
@@ -82,7 +82,7 @@ $(document).ready(function () {
 
     $("#jsjquery").hover(function () {
         $("#bar_jsjquery").animate({
-            height: "40%"
+            height: "50%"
         }, 1000);
         $('.desc_jsjquery').animate({
             'opacity': '1'
