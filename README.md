@@ -1,5 +1,9 @@
-# Art's Online Portfolio
+#ONLINE PORTFOLIO
 
-This is my first website and github repo, so bear with me please.
-Will develop a second one with more modern and sexy style. This site
-will be gone soon, so say your goodbyes.
+This repo is my first online portfolio developed using vanilla web development technlogies,
+I've developed this to learn as well as apply new technologies.
+
+#NEW PORTFOLIO
+
+I'm currently working on another online portofolio which is more modern and mature version of this site
+I'm redesigning the user interface as well as the user interaction. you can view it in one of my repos named 'awesm' thanks.
